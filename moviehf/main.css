@@ -1,0 +1,43 @@
+ul {
+    max-height: 60vh; 
+    overflow: auto;
+    
+}
+body {
+    margin: 3vh;
+    font-family: Roboto;
+}
+h2{
+    color: darkslategrey;
+
+}
+#load-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  #reset-button {
+    background-color: #638adf;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  #activeMovie {
+    text-align: justify;
+    font-style: italic;
+  }
